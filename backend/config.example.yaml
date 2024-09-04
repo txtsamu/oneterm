@@ -12,16 +12,15 @@ ssh:
 guacd:
   host: oneterm-guacd
   port: 4822
-  gateway: oneterm-api 
 
 mysql:
-  host: mysql
+  host: oneterm-mysql
   port: 3306
   user: root
   password: root
 
 redis:
-  addr: redis:6379
+  addr: oneterm-redis:6379
   password: root
 
 log:
@@ -47,15 +46,4 @@ auth:
       - key: authorization
         value: authorization
 
-cmdb:
-  url: http://host/api/v0.1
-
 secretKey: acl secret key
-
-worker:
-  uid: 123
-  rid: 456
-  key: acl key
-  secret: acl secret
-
-
