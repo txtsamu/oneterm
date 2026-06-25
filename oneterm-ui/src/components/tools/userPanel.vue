@@ -370,11 +370,11 @@ export default {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #F7F8FA;
+      background-color: @primary-color_7;
       cursor: pointer;
 
       &:hover {
-        background-color: #EBEFF8;
+        background-color: @primary-color_3;
 
         .user-panel-btn-icon {
           color: #2F54EB;
@@ -415,15 +415,15 @@ export default {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #F7F8FA;
+      background-color: @primary-color_7;
       cursor: pointer;
 
       &:first-child {
-        border-right: solid 1px #E4E7ED;
+        border: 1px solid @border-color-base;
       }
 
       &_active {
-        background-color: #EBEFF8;
+        background-color: @primary-color_3;
         color: #2F54EB;
       }
 

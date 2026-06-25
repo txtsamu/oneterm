@@ -554,3 +554,90 @@ h4.ant-typography, .ant-typography h1, .ant-typography h2,
   .ant-page-header-heading-title { color: @dp-text-1; }
   .ant-page-header-heading-sub-title { color: @dp-text-2; }
 }
+
+// ── vxe-table (used by ops-table) ──────────────────────────────────────────
+.vxe-table--render-default {
+  background: @dp-bg-1;
+  color: @dp-text-1;
+
+  .vxe-table--header-wrapper,
+  .vxe-table--fixed-left-wrapper .vxe-table--header-wrapper,
+  .vxe-table--fixed-right-wrapper .vxe-table--header-wrapper {
+    background: @dp-bg-2 !important;
+  }
+  .vxe-header--column {
+    background: @dp-bg-2 !important;
+    color: @dp-text-1 !important;
+    border-color: @dp-border !important;
+    .vxe-resizable { background: @dp-border; }
+  }
+  .vxe-body--row {
+    background: @dp-bg-1;
+    color: @dp-text-1;
+    &.row--current, &.row--hover { background: @dp-bg-2 !important; }
+    &.row--stripe { background: @dp-bg-0 !important; }
+    &.row--checked { background: @dp-hover !important; }
+  }
+  .vxe-body--column {
+    background: transparent !important;
+    color: @dp-text-1 !important;
+    border-color: @dp-border !important;
+  }
+  .vxe-footer--column {
+    background: @dp-bg-2 !important;
+    color: @dp-text-1 !important;
+    border-color: @dp-border !important;
+  }
+  .vxe-table--border-line { border-color: @dp-border !important; }
+  .vxe-table--main-wrapper { border-color: @dp-border; }
+  &.border--full .vxe-body--column,
+  &.border--full .vxe-header--column,
+  &.border--full .vxe-footer--column {
+    background-image: linear-gradient(@dp-border, @dp-border),
+                      linear-gradient(@dp-border, @dp-border) !important;
+  }
+  .vxe-table--empty-block { background: @dp-bg-1; color: @dp-text-2; }
+  .vxe-table--loading { background: rgba(20, 20, 20, 0.5); }
+}
+
+// vxe-table toolbar, pager
+.vxe-toolbar { background: @dp-bg-1; border-color: @dp-border; color: @dp-text-1; }
+.vxe-pager {
+  background: @dp-bg-1;
+  color: @dp-text-1;
+  border-color: @dp-border;
+  .vxe-pager--btn-wrapper { color: @dp-text-1; }
+  .vxe-pager--num-btn {
+    background: @dp-bg-2;
+    border-color: @dp-border;
+    color: @dp-text-1;
+    &:hover { border-color: @primary-color; color: @primary-color; }
+    &.is--active { background: @primary-color; border-color: @primary-color; color: #fff; }
+  }
+  .vxe-pager--prev-btn, .vxe-pager--next-btn {
+    background: @dp-bg-2;
+    border-color: @dp-border;
+    color: @dp-text-1;
+    &:hover { border-color: @primary-color; color: @primary-color; }
+    &.is--disabled { color: @dp-text-3; }
+  }
+  .vxe-pager--jump-prev, .vxe-pager--jump-next { color: @dp-text-2; }
+  .vxe-pager--goto .vxe-default-input {
+    background: @dp-bg-2;
+    border-color: @dp-border;
+    color: @dp-text-1;
+  }
+}
+
+// vxe-table checkbox
+.vxe-cell--checkbox .vxe-checkbox--icon { color: @dp-text-2; }
+.vxe-cell--checkbox.is--checked .vxe-checkbox--icon { color: @primary-color; }
+
+// vxe-table column filter/sort icons
+.vxe-cell--filter .vxe-filter--btn { color: @dp-text-2; &.is--active { color: @primary-color; } }
+.vxe-cell--sort .vxe-sort--asc-btn, .vxe-cell--sort .vxe-sort--desc-btn { color: @dp-text-3; &.is--active { color: @primary-color; } }
+
+// ops-table stripe/header overrides (already in global.less but referencing old vars)
+.ops-unstripe-table .vxe-table--header-wrapper { background-color: @dp-bg-2 !important; }
+.ops-stripe-table .vxe-table--header-wrapper { background-color: @dp-bg-2 !important; }
+.ops-stripe-table .vxe-body--row.row--stripe { background-color: @dp-bg-0 !important; }

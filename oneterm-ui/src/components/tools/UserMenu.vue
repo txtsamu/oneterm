@@ -139,7 +139,7 @@ export default {
   .common-settings-btn {
     cursor: pointer;
     padding: 0px 18px;
-    background-color: #F0F5FF;
+    background-color: @primary-color_5;
     border-radius: 22px;
     height: 26px;
     display: flex;

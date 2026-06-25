@@ -581,11 +581,11 @@ export default {
       /deep/ .ant-input {
         height: 32px;
         border-radius: 4px;
-        border: 1px solid #e8eaed;
+        border: 1px solid @border-color-base;
         transition: all 0.2s ease;
 
         &:hover {
-          border-color: #c3cdd7;
+          border-color: @primary-color;
         }
 
         &:focus {
@@ -615,8 +615,8 @@ export default {
 .oneterm-table-account {
   padding: 8px 0px 8px 16px;
   border-left: solid 3px fade(@primary-color, 60%);
-  border-top: 1px solid #E4E7ED;
-  background-color: #F9FBFF;
+  border-top: 1px solid @border-color-base;
+  background-color: @primary-color_6;
   box-shadow: 0px -2px 6px 0px rgba(98, 147, 192, 0.10) inset, 0px 2px 6px 0px rgba(98, 147, 192, 0.10) inset;
 
   display: flex;
@@ -638,7 +638,7 @@ export default {
 
   &-item {
     padding: 0px 8px;
-    background-color: #EBEFF8;
+    background-color: @primary-color_3;
     height: 30px;
     display: flex;
     align-items: center;
@@ -649,7 +649,7 @@ export default {
 
     &:hover {
       border-color: fade(@primary-color, 50%);
-      background-color: #E1EFFF;
+      background-color: @primary-color_4;
     }
   }
 }

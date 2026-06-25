@@ -201,7 +201,7 @@ export default {
     align-items: center;
     cursor: pointer;
     border: solid 2px transparent;
-    background-color: #F7F8FA;
+    background-color: @primary-color_7;
     line-height: 22px;
     border-radius: 2px;
     max-width: 100%;
@@ -221,7 +221,7 @@ export default {
 
     &-active {
       border-color: #7F97FA;
-      background-color: #E1EFFF;
+      background-color: @primary-color_4;
     }
   }
 }
