@@ -63,7 +63,7 @@ export default {
           style: {
             text: data.reduce((acc, cur) => acc + cur.count, 0),
             textAlign: 'center',
-            fill: '#000',
+            fill: '#e8e8e8',
             fontSize: 38,
             fontWeight: '700',
           },

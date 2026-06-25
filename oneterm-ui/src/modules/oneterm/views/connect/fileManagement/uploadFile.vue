@@ -112,7 +112,7 @@ export default {
   font-weight: 400;
 
   &_border {
-    border: solid 1px #E4E7ED;
+    border: 1px solid @border-color-base;
     border-radius: 2px;
   }
 
