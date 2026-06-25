@@ -111,7 +111,7 @@ export default {
   }
   .ant-popover-inner-content {
     padding: 0;
-    color: #000000a6;
+    color: rgba(255, 255, 255, 0.65);
   }
 }
 
@@ -179,7 +179,7 @@ export default {
 
       &_active {
         color: #2F54EB;
-        background-color: #f0f5ff;
+        background-color: #0d1729;
       }
 
       &:hover {

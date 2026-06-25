@@ -293,7 +293,7 @@ export default {
 <style lang="less" scoped>
 .session-recording {
   padding: 18px;
-  background-color: #ffffff;
+  background-color: #1f1f1f;
   border-radius: 6px;
 
   &-header {

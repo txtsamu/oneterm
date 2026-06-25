@@ -148,14 +148,14 @@ export default {
 .ops-setting-auth {
   padding: 20px;
   padding-top: 0;
-  background-color: #fff;
+  background-color: #1f1f1f;
   border-radius: @border-radius-box;
   overflow: auto;
   margin-bottom: -24px;
   height: calc(100vh - 64px);
 }
 .setting-auth {
-  background-color: #fff;
+  background-color: #1f1f1f;
   height: calc(100vh - 150px);
   overflow: auto;
   border-radius: 0 5px 5px 5px;

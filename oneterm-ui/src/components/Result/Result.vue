@@ -77,7 +77,7 @@ export default {
     }
     .title {
       font-size: 24px;
-      color: rgba(0, 0, 0, .85);
+      color: rgba(255, 255, 255, 0.85);
       font-weight: 500;
       line-height: 32px;
       margin-bottom: 16px;
@@ -85,11 +85,11 @@ export default {
     .description {
       font-size: 14px;
       line-height: 22px;
-      color: rgba(0, 0, 0, 0.45);
+      color: rgba(255, 255, 255, 0.45);
       margin-bottom: 24px;
     }
     .extra {
-      background: #fafafa;
+      background: #262626;
       padding: 24px 40px;
       border-radius: 2px;
       text-align: left;

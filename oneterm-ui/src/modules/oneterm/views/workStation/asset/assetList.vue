@@ -289,7 +289,7 @@ export default {
       height: 36px;
       border-radius: 6px;
       border: 1px solid #e8eaed;
-      background-color: #fafbfc;
+      background-color: #1a1a1a;
       transition: all 0.2s ease;
       font-size: 14px;
 
@@ -299,12 +299,12 @@ export default {
 
       &:hover {
         border-color: #c3cdd7;
-        background-color: #fff;
+        background-color: #1f1f1f;
       }
 
       &:focus {
         border-color: @primary-color;
-        background-color: #fff;
+        background-color: #1f1f1f;
         box-shadow: 0 0 0 3px fade(@primary-color, 8%);
       }
     }
@@ -326,7 +326,7 @@ export default {
     width: 100%;
     margin-top: 20px;
     padding: 18px;
-    background: linear-gradient(135deg, #fafbfc 0%, #f5f7fa 100%);
+    background: linear-gradient(135deg, #262626 0%, #1f1f1f 100%);
     border: 1px solid #e8eaed;
     border-radius: 8px;
     flex-shrink: 0;

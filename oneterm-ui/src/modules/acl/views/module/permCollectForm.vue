@@ -185,7 +185,7 @@ export default {
 .custom-filter-dropdown {
   padding: 8px;
   border-radius: 4px;
-  background: #fff;
+  background: #1f1f1f;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 

@@ -99,7 +99,7 @@ export default {
     align-items: center;
     cursor: pointer;
     border: 1px #e8e8e8 solid;
-    background-color: #fff;
+    background-color: #1f1f1f;
     .acl-apps-add-icon {
       font-size: 70px;
       display: block;

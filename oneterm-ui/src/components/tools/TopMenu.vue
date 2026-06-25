@@ -141,7 +141,7 @@ export default {
     padding: 8px 16px;
     margin: 0px 30px 0 10px;
     border-radius: 4px;
-    background: linear-gradient(0deg, #eeeeee 55%, white);
+    background: linear-gradient(0deg, #262626 55%, #1f1f1f);
     color: @layout-header-font-color;
     text-align: center;
     cursor: pointer;

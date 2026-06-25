@@ -260,7 +260,7 @@ export default {
     td {
       &.weektime-atom-item {
         user-select: unset;
-        background-color: #f5f5f5;
+        background-color: #262626;
       }
       &.ui-selected {
         background-color: #598fe6;

@@ -196,7 +196,7 @@ export default {
 
 <style lang="less" scoped>
 .display-setting {
-  background-color: #FFFFFF;
+  background-color: #1f1f1f;
   width: 100%;
   padding: 24px 0px 1px;
   height: calc(100vh - 130px);

@@ -215,7 +215,7 @@ export default {
     &-name {
       font-size: 14px;
       font-weight: 400;
-      color: #1D2129;
+      color: @text-color_1;
       word-break: break-all;
     }
 

@@ -68,7 +68,7 @@ export default {
 
 <style lang="less" scoped>
 .page-header {
-  background: #fff;
+  background: #1f1f1f;
   padding: 16px 32px 0;
   border-bottom: 1px solid #e8e8e8;
 
@@ -112,7 +112,7 @@ export default {
         font-size: 20px;
         line-height: 28px;
         font-weight: 500;
-        color: rgba(0, 0, 0, 0.85);
+        color: rgba(255, 255, 255, 0.85);
         margin-bottom: 16px;
         flex: auto;
       }
@@ -125,7 +125,7 @@ export default {
       .content,
       .headerContent {
         flex: auto;
-        color: rgba(0, 0, 0, 0.45);
+        color: rgba(255, 255, 255, 0.45);
         line-height: 22px;
 
         .link {

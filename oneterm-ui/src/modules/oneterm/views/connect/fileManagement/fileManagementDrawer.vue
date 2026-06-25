@@ -377,7 +377,7 @@ export default {
     border-radius: 2px;
 
     &_disabled {
-      background-color: #f5f5f5;
+      background-color: #262626;
       color: rgba(0, 0, 0, .25) !important;
       cursor: not-allowed;
     }

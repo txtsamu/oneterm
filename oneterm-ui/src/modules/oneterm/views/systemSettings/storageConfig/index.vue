@@ -32,7 +32,7 @@ export default {
     border-bottom: 1px solid #e8eaed;
 
     .ant-tabs-tab {
-      background-color: #fafafa;
+      background-color: #262626;
       border: 1px solid #e8eaed;
       color: @text-color_2;
 
@@ -42,7 +42,7 @@ export default {
     }
 
     .ant-tabs-tab-active {
-      background-color: #fff;
+      background-color: #1f1f1f;
       color: @primary-color;
       font-weight: 600;
     }

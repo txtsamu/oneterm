@@ -37,6 +37,6 @@ export default {
   height: calc(100vh - 64px);
   margin-bottom: -24px;
   padding: 24px;
-  background-color: #fff;
+  background-color: #1f1f1f;
 }
 </style>

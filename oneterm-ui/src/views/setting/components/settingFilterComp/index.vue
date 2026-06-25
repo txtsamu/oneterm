@@ -350,7 +350,7 @@ export default {
     &:hover {
       display: inline-block;
       border-radius: 5px;
-      background-color: #f0faff;
+      background-color: #0d1729;
     }
   }
 }
@@ -369,7 +369,7 @@ export default {
       border-radius: 5px;
       transition: all 0.3s;
       &:hover {
-        background-color: #f0faff;
+        background-color: #0d1729;
       }
       > .anticon {
         margin-right: 10px;

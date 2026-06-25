@@ -17,7 +17,7 @@ export default {
   height: 42px;
   line-height: 42px;
   color: @primary-color;
-  background: linear-gradient(270deg, #fff -6.74%, fade(@primary-color, 8%) 96.74%);
+  background: linear-gradient(270deg, #1f1f1f -6.74%, fade(@primary-color, 8%) 96.74%);
   padding: 0 20px;
   display: inline-block;
   font-weight: 600;

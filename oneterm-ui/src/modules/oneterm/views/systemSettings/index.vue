@@ -166,7 +166,7 @@ export default {
     }
 
     /deep/ .ant-tabs-nav-wrap {
-      background-color: #fafafa;
+      background-color: #262626;
       padding: 16px 0;
     }
 

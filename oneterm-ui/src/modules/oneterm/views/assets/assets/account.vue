@@ -332,7 +332,7 @@ export default {
 
   i {
     margin-left: 4px;
-    color: #4e5969;
+    color: @text-color_2;
     cursor: pointer;
   }
 }

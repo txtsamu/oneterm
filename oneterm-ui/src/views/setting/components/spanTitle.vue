@@ -25,7 +25,7 @@ export default {
   line-height: 28px;
   padding-left: 12px;
   font-weight: 700;
-  color: #000;
+  color: @text-color_1;
   border-left: 3px solid @primary-color;
 }
 </style>

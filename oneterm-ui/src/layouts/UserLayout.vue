@@ -55,7 +55,7 @@ export default {
     .container {
       width: 100%;
       min-height: 100%;
-      background: #f0f2f5 url(~@/assets/background.svg) no-repeat 50%;
+      background: #141414 url(~@/assets/background.svg) no-repeat 50%;
       background-size: 100%;
       padding: 110px 0 144px;
       position: relative;
@@ -90,7 +90,7 @@ export default {
 
           .title {
             font-size: 33px;
-            color: rgba(0, 0, 0, .85);
+            color: rgba(255, 255, 255, 0.85);
             font-family: Avenir, 'Helvetica Neue', Arial, Helvetica, sans-serif;
             font-weight: 600;
             position: relative;
@@ -99,7 +99,7 @@ export default {
         }
         .desc {
           font-size: 14px;
-          color: rgba(0, 0, 0, 0.45);
+          color: rgba(255, 255, 255, 0.45);
           margin-top: 12px;
           margin-bottom: 40px;
         }
@@ -123,7 +123,7 @@ export default {
           margin-bottom: 8px;
           font-size: 14px;
           a {
-            color: rgba(0, 0, 0, 0.45);
+            color: rgba(255, 255, 255, 0.45);
             transition: all 0.3s;
             &:not(:last-child) {
               margin-right: 40px;
@@ -131,7 +131,7 @@ export default {
           }
         }
         .copyright {
-          color: rgba(0, 0, 0, 0.45);
+          color: rgba(255, 255, 255, 0.45);
           font-size: 14px;
         }
       }

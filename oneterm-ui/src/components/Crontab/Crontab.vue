@@ -349,7 +349,7 @@ export default {
 .popup-main {
   position: relative;
   margin: 16px auto;
-  background: #fff;
+  background: #1f1f1f;
   border-radius: 8px;
   font-size: 12px;
   overflow: hidden;
@@ -359,17 +359,17 @@ export default {
   overflow: hidden;
   line-height: 34px;
   padding-top: 6px;
-  background: #f2f2f2;
+  background: #262626;
 }
 .popup-result {
   border-radius: 8px;
 }
 .popup-result .title {
-  background: #fff;
+  background: #1f1f1f;
   font-weight: 400;
   font-size: 14px;
   color: #2f54eb;
-  background-color: #f0f5ff;
+  background-color: #0d1729;
   margin: 0px;
   box-sizing: border-box;
   padding-left: 12px;

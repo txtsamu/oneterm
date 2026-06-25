@@ -105,7 +105,7 @@ export default {
 
 <style lang="less" scoped>
 .ops-logout {
-  background-color: #f0f5ff;
+  background-color: #0d1729;
   width: 100%;
   height: 100%;
   position: relative;
@@ -113,7 +113,7 @@ export default {
     width: 450px;
     height: 275px;
     border-radius: 12px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     position: absolute;
     left: 50%;
     top: 30%;

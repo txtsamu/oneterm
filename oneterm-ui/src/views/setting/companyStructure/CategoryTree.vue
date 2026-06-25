@@ -170,7 +170,7 @@ li {
   position: relative;
   // padding: 7px 0 7px 10px;
   padding-left: 10px;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   .ops-setting-companystructure-sidebar-group-tree-info:hover {
     color: @primary-color;
@@ -247,7 +247,7 @@ li {
         margin: 0 auto;
         width: 27px;
         height: 15px;
-        background: #ffffff;
+        background: #1f1f1f;
         border-radius: 2px;
         text-align: center;
         font-family: 'Inter';

@@ -382,7 +382,7 @@ export default {
 
 <style lang="less" scoped>
 .access-auth {
-  background-color: #fff;
+  background-color: #1f1f1f;
   height: 100%;
   border-radius: 6px;
   padding: 18px;

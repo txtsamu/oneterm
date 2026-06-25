@@ -71,7 +71,7 @@ export default {
 <style lang="less">
 .ops-setting-notice-basic {
   padding-top: 20px;
-  background-color: #fff;
+  background-color: #1f1f1f;
   border-radius: @border-radius-box;
   overflow: auto;
   margin-bottom: -24px;

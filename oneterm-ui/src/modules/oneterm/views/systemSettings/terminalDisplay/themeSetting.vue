@@ -145,7 +145,7 @@ export default {
   width: 100%;
   height: calc(100vh - 130px);
   padding: 18px;
-  background-color: #FFFFFF;
+  background-color: #1f1f1f;
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
@@ -156,7 +156,7 @@ export default {
   &-item {
     padding: 16px;
     border: solid 1px @text-color_6;
-    background-color: #FFFFFF;
+    background-color: #1f1f1f;
     cursor: pointer;
     min-width: 320px;
     border-radius: 4px;
