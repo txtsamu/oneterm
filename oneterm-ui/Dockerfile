@@ -1,8 +1,8 @@
-FROM node:16.20.0-alpine AS builder
+FROM node:18-alpine AS builder
 WORKDIR /oneterm-ui
 COPY . .
 RUN yarn config set registry https://registry.npmmirror.com/
-RUN yarn install
+RUN yarn install --ignore-engines
 RUN yarn build
 
 FROM nginx:alpine
