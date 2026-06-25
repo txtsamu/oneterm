@@ -25,7 +25,7 @@
       <vxe-table-column field="created_at" :title="$t('created_at')"></vxe-table-column>
       <template slot="empty">
         <img :src="require(`@/assets/data_empty.png`)" />
-        <p style="font-size: 14px; line-height: 17px; color: rgba(0, 0, 0, 0.6)">{{ $t('noData') }}</p>
+        <p style="font-size: 14px; line-height: 17px; color: rgba(255, 255, 255, 0.65)">{{ $t('noData') }}</p>
       </template>
     </vxe-table>
   </CustomDrawer>

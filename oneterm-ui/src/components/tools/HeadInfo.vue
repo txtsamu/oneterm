@@ -43,14 +43,14 @@ export default {
     }
 
     span {
-      color: rgba(0, 0, 0, .45);
+      color: rgba(255, 255, 255, 0.45);
       display: inline-block;
       font-size: 14px;
       line-height: 22px;
       margin-bottom: 4px;
     }
     p {
-      color: rgba(0, 0, 0, .85);
+      color: rgba(255, 255, 255, 0.85);
       font-size: 24px;
       line-height: 32px;
       margin: 0;

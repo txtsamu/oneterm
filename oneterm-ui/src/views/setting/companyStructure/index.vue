@@ -999,7 +999,7 @@ export default {
     &:hover {
       overflow-y: overlay;
     }
-    background-color: #fff;
+    background-color: #1f1f1f;
     .ops-setting-structure-sidebar-group-header {
       display: inline-flex;
       align-items: center;
@@ -1030,7 +1030,7 @@ export default {
         margin-left: 8px;
         font-size: 16px;
         font-weight: 500;
-        color: #000;
+        color: @text-color_1;
         cursor: pointer;
         user-select: none;
         white-space: nowrap;
@@ -1047,7 +1047,7 @@ export default {
         height: 30px;
         position: relative;
         padding-left: 8px;
-        color: rgba(0, 0, 0, 0.7);
+        color: rgba(255, 255, 255, 0.7);
         font-size: 14px;
         width: 100%;
         &:hover {
@@ -1102,7 +1102,7 @@ export default {
             margin: 0 auto;
             width: 27px;
             height: 15px;
-            background: #ffffff;
+            background: #1f1f1f;
             border-radius: 2px;
             text-align: center;
             font-family: 'Inter';
@@ -1149,7 +1149,7 @@ export default {
 
   .ops-setting-structure-main {
     padding: 12px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     overflow-y: auto;
     border-radius: @border-radius-box;
     .ops-setting-structure-main-controller {
@@ -1216,7 +1216,7 @@ export default {
   }
   .history-scene-item-selected {
     //.ops_popover_item_selected();
-    background-color: #f0f5ff;
+    background-color: #0d1729;
     color: #2f54eb;
   }
 }

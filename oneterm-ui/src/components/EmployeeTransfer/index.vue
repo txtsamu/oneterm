@@ -239,7 +239,7 @@ export default {
     border: none;
     box-shadow: none;
     margin-top: 10px;
-    background-color: #f9fbff;
+    background-color: #0a1020;
     margin-top: 0 !important;
   }
 }
@@ -247,7 +247,7 @@ export default {
   border-radius: 2px;
   width: 90%;
   margin-left: 5%;
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 .employee-transfer.vue-treeselect--has-value {
   .vue-treeselect-helper-hide {
@@ -268,7 +268,7 @@ export default {
   & &-left,
   & &-right {
     width: 40%;
-    background-color: #f9fbff;
+    background-color: #0a1020;
     padding-top: 12px;
     border: 1px solid #e4e7ed;
     border-radius: 4px;
@@ -283,7 +283,7 @@ export default {
       margin: 2px 0;
     }
     .employee-transfer-right-selected {
-      background-color: #f0f5ff;
+      background-color: #0d1729;
     }
   }
   & &-operation {

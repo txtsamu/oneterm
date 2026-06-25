@@ -529,7 +529,7 @@ export default {
   &-two {
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
+    background-color: #1f1f1f;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     display: flex;
@@ -543,7 +543,7 @@ export default {
     .oneterm-workstation-panel {
       height: calc(100vh - 172px);
       margin: 0px;
-      background-color: #FFFFFF;
+      background-color: #1f1f1f;
     }
 
     &_full {
@@ -619,7 +619,7 @@ export default {
 
     &-active {
       font-weight: 600;
-      background-color: #fff;
+      background-color: #1f1f1f;
     }
   }
 

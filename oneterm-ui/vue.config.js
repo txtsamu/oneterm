@@ -69,8 +69,30 @@ module.exports = {
     loaderOptions: {
       less: {
         modifyVars: {
-          // override less variables for custom ant design theme
           'primary-color': '#2f54eb',
+          'body-background': '#141414',
+          'component-background': '#1f1f1f',
+          'layout-body-background': '#141414',
+          'layout-header-background': '#1f1f1f',
+          'layout-sider-background': '#1f1f1f',
+          'border-color-base': '#303030',
+          'border-color-split': '#303030',
+          'item-hover-bg': '#262626',
+          'text-color': 'rgba(255, 255, 255, 0.85)',
+          'text-color-secondary': 'rgba(255, 255, 255, 0.45)',
+          'disabled-color': 'rgba(255, 255, 255, 0.25)',
+          'input-bg': '#262626',
+          'select-background': '#262626',
+          'tooltip-bg': '#434343',
+          'popover-bg': '#2d2d2d',
+          'modal-content-bg': '#1f1f1f',
+          'card-background': '#1f1f1f',
+          'table-bg': '#1f1f1f',
+          'table-header-bg': '#262626',
+          'table-row-hover-bg': '#262626',
+          'table-selected-row-bg': '#2a3554',
+          'menu-dark-bg': '#1f1f1f',
+          'menu-dark-submenu-bg': '#141414',
         },
         javascriptEnabled: true
       }

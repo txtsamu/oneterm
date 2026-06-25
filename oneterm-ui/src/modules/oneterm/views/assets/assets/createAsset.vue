@@ -250,7 +250,7 @@ export default {
   width: 100%;
   height: calc(100vh - 112px);
   margin-bottom: -24px;
-  background-color: #ffffff;
+  background-color: #1f1f1f;
   border-radius: 15px;
   position: relative;
   .asset-create-asset-container {
@@ -258,7 +258,7 @@ export default {
     padding: 18px 5vw;
     overflow: auto;
     strong {
-      color: #000;
+      color: @text-color_1;
     }
   }
   .asset-create-asset-footer {

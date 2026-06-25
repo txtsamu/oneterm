@@ -292,7 +292,7 @@ export default {
 
   .user-layout-register {
     .ant-input-group-addon:first-child {
-      background-color: #fff;
+      background-color: #1f1f1f;
     }
   }
 </style>

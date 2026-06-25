@@ -110,7 +110,7 @@ export default {
   grid-template-rows: 15vh 1fr 33vh;
 
   .oneterm-dashboard-top {
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
     display: flex;
@@ -138,7 +138,7 @@ export default {
       }
 
       &:hover {
-        background-color: #fafafa;
+        background-color: #262626;
 
         .oneterm-statistic-img img {
           transform: scale(1.05);
@@ -193,7 +193,7 @@ export default {
     grid-template-rows: 100%;
 
     > div {
-      background-color: #fff;
+      background-color: #1f1f1f;
       border-radius: 5px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
       transition: all 0.3s ease;

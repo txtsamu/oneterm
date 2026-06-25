@@ -76,7 +76,7 @@ export default {
   .user-rank-box-divider {
     width: 100%;
     height: 1px;
-    background-color: #f0f1f5;
+    background-color: #1a1a1a;
   }
   .user-rank-box {
     width: 100%;
@@ -103,7 +103,7 @@ export default {
     }
 
     .user-rank-box-name {
-      color: #252631;
+      color: @text-color_1;
       font-weight: 400;
       font-size: 14px;
       overflow: hidden;

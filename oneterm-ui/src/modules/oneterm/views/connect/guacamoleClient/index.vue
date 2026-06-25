@@ -398,7 +398,7 @@ export default {
 .oneterm-guacamole-panel {
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: @text-color_1;
 }
 
 .oneterm-guacamole-wrap {

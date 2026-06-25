@@ -360,7 +360,7 @@ export default {
     width: 200px;
     height: 400px;
     margin-right: 24px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-radius: @border-radius-box;
     padding-top: 15px;
     .setting-person-left-item {
@@ -385,7 +385,7 @@ export default {
   .setting-person-right {
     width: 800px;
     height: 700px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-radius: @border-radius-box;
     padding: 24px 48px;
     .setting-person-right-disabled {

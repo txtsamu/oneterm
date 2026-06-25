@@ -68,7 +68,7 @@ export default {
   .two-column-layout-sidebar {
     height: 100%;
     overflow: hidden;
-    background-color: #f7f8fa;
+    background-color: #1a1a1a;
     border-right: 1px solid #e8eaed;
     padding: 12px 8px;
 
@@ -79,7 +79,7 @@ export default {
   .two-column-layout-main {
     height: 100%;
     padding: 12px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     overflow-y: auto;
     border-radius: @border-radius-box;
   }

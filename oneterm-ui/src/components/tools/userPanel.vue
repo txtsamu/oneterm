@@ -303,13 +303,13 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
-    background-color: #FFFFFF;
+    color: @text-color_1;
+    background-color: #1f1f1f;
     font-size: 48px !important;
   }
 
   &-nickname {
-    color: #1D2129;
+    color: @text-color_1;
     font-size: 15px;
     font-weight: 700;
 
@@ -359,7 +359,7 @@ export default {
     &-title {
       font-size: 14px;
       font-weight: 400;
-      color: #1D2129;
+      color: @text-color_1;
       margin-top: 8px;
     }
 

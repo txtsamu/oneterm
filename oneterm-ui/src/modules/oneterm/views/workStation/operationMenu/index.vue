@@ -258,7 +258,7 @@ export default {
   flex-direction: column;
   align-items: center;
   row-gap: 8px;
-  background: linear-gradient(180deg, #fafafa 0%, #f5f5f5 100%);
+  background: linear-gradient(180deg, #262626 0%, #1f1f1f 100%);
   border-left: 1px solid #e8eaed;
   padding: 16px 0px;
   transition: width 0.2s ease;

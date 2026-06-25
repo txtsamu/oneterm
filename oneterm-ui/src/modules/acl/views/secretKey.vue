@@ -89,12 +89,12 @@ export default {
 
 <style lang="less">
 .acl-secret-key {
-  background-color: #fff;
+  background-color: #1f1f1f;
   padding: 24px;
   border-radius: 15px;
   height: calc(100% + 24px);
   .ant-input[disabled] {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
 }
 </style>

@@ -93,7 +93,7 @@ export default {
 
 <style lang="less" scoped>
 .access-control {
-  background-color: #fff;
+  background-color: #1f1f1f;
   height: 100%;
   padding: 18px 0px;
   border-radius: 6px;

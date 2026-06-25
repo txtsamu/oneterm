@@ -190,7 +190,7 @@ export default {
 <style lang="less" scoped>
 .acl-users {
   border-radius: 15px;
-  background-color: #fff;
+  background-color: #1f1f1f;
   height: calc(100vh - 64px);
   margin-bottom: -24px;
   padding: 24px;

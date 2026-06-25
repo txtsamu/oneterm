@@ -493,7 +493,7 @@ export default {
 
 .operation-log-expand {
   padding: 20px 30px;
-  background-color: #fafbfc;
+  background-color: #1a1a1a;
   border-left: 3px solid fade(@primary-color, 30%);
 
   &-header {
@@ -501,7 +501,7 @@ export default {
     grid-template-columns: 200px 1fr 1fr;
     gap: 16px;
     padding: 12px 16px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-radius: 4px;
     margin-bottom: 12px;
     font-weight: 600;
@@ -519,7 +519,7 @@ export default {
     grid-template-columns: 200px 1fr 1fr;
     gap: 16px;
     padding: 12px 16px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-radius: 4px;
     transition: all 0.2s ease;
 

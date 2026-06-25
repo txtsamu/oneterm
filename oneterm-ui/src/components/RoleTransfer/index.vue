@@ -138,7 +138,7 @@ export default {
   & &-left,
   & &-right {
     width: 40%;
-    background-color: #f9fbff;
+    background-color: #0a1020;
     border: 1px solid #e4e7ed;
     border-radius: 4px;
     height: var(--custom-height);
@@ -170,7 +170,7 @@ export default {
       margin: 2px 0;
     }
     .role-transfer-right-selected {
-      background-color: #f0f5ff;
+      background-color: #0d1729;
     }
   }
   & &-operation {

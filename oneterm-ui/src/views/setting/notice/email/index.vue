@@ -34,7 +34,7 @@ export default {
 .ops-setting-notice-mail {
   padding: 20px;
   padding-top: 0;
-  background-color: #fff;
+  background-color: #1f1f1f;
   border-radius: @border-radius-box;
   overflow: auto;
   margin-bottom: -24px;

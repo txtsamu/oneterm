@@ -257,7 +257,7 @@ export default {
 
 .cmdb-radio-slot-field {
   .ant-input[disabled] {
-    background-color: #fff;
+    background-color: #1f1f1f;
     cursor: default;
     color: rgba(0, 0, 0, 0.65);
     padding-left: 80px;
