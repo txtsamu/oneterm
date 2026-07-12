@@ -7,7 +7,7 @@
     <div class="spliter-wrap">
       <a-button
         v-show="collapsable"
-        :icon="isExpanded ? 'left' : 'right'"
+        :icon="isExpanded ? 'right' : 'left'"
         class="collapse-btn"
         @click="handleExpand"
       ></a-button>
@@ -109,9 +109,9 @@ export default {
   watch: {
     isExpanded(newValue) {
       if (newValue) {
-        document.querySelector(`.${this.appName} .pane-two`).style.display = 'none'
+        document.querySelector(`.${this.appName} .pane-one`).style.display = 'none'
       } else {
-        document.querySelector(`.${this.appName} .pane-two`).style.display = ''
+        document.querySelector(`.${this.appName} .pane-one`).style.display = ''
       }
     },
   },
@@ -123,9 +123,9 @@ export default {
     }
     this.parentContainer = document.querySelector(`.${this.appName}`)
     if (this.isExpanded) {
-      document.querySelector(`.${this.appName} .pane-two`).style.display = 'none'
+      document.querySelector(`.${this.appName} .pane-one`).style.display = 'none'
     } else {
-      document.querySelector(`.${this.appName} .pane-two`).style.display = ''
+      document.querySelector(`.${this.appName} .pane-one`).style.display = ''
     }
   },
 

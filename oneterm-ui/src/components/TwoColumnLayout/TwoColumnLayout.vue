@@ -8,6 +8,7 @@
       :triggerColor="triggerColor"
       :triggerLength="triggerLength"
       :calcBasedParent="calcBasedParent"
+      collapsable
     >
       <template #one>
         <div class="two-column-layout-sidebar">
